@@ -7,7 +7,7 @@ function ContentHV(){
 <div className="detallehv">
 <h2 className="nombre">JOSÉ MARINO VILLADA S.</h2>
 <p className="cargo">CEO</p>
-<p className="compania">Valorate S.A.S</p>
+<p className="compania">Valórate S.A.S</p>
 <div>
     <ul>
         <li>Administrador de empresas (Universidad Nacional de Manizales)</li>

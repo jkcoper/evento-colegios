@@ -1,14 +1,13 @@
 .contentbottom{
 display: flex;
-flex-direction: row;
-justify-content: space-around;
-align-items: center;
-position: absolute;
-width: 100%;
-height: 950px;
-left: 0%;
-right: 0%;
-top: 679px;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    width: 305px;
+    width: 100%;
+    height: 1550px;
+   
 
 background: #F4F2F2;
 box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
@@ -22,7 +21,7 @@ box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
 }
 
 img.foto{
-width: 50vh;  
+width: 50vw;  
 height: auto;
 
 filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
@@ -31,7 +30,7 @@ border-radius: 15px;
 
 .detalle{
 margin-top: 6%;
-width: 70vh;
+width: 95vw;
 
 background: #FFFFFF;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -48,13 +47,13 @@ margin-right: 10%;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 300;
-font-size: 21px;
-line-height: 36px;
+font-size: 14px;
+line-height: 25px;
 
 }
 
 .hojavida{
-width: 50vh;
+width: 92vw;
 background: #FFFFFF;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 15px;
@@ -66,7 +65,7 @@ border-radius: 15px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 200;
-    font-size: 15px;
+    font-size: 12px;
     line-height: 20px;
     align-items: center;
     text-align: justify;
@@ -74,8 +73,8 @@ border-radius: 15px;
 }
 
 #detalleimagen{
-    height: 15vw;
-    width: 55vh;
+    height: 15vv;
+    width: 95vw;
     border-radius: 5%;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
     
@@ -84,25 +83,68 @@ border-radius: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 500px;
-    margin-left: 32hv;
+       
+    
 }
 
-@media (max-width: 996px){
+@media only screen and (min-width: 996px){
     .contentbottom{
-        flex-direction: column-reverse;
-        justify-content: space-around;
-        align-items: center;
-        position: absolute;
-        width: 945px;
-        height: 1900px;
-        top: 103vh;
+        display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+position: absolute;
+width: 100%;
+height: 1000px;
+left: 0%;
+right: 0%;
+
+       
         }
+
+        img.foto{
+            width: 20vw;  
+            height: auto;
+        }
+
+        .detalle{
+           
+            width: 600px;
+        }
+        .textodetalle{
+            
+            font-weight: 500;
+            font-size: 25px;
+            line-height: 32px;
+            
+            }
+            .hojavida{
+                width: 400px;
+            }
+           
+         
+            .detallehv{
+                margin-left: 5%;
+                margin-right: 5%;
+               
+                font-weight: 200;
+                font-size: 14px;
+                line-height: 25px;
+                
+            }
+            #detalleimagen{
+                height: 15vv;
+                width: 600px;
+                border-radius: 5%;
+                
+                
+            }
                      
         .form{
-            
-            margin-top: 500px;
-           margin-left: 450px;
+         
+    margin-left: 32hv;
+           
         }
 
 }
+

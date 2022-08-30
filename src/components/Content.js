@@ -7,9 +7,13 @@ import NotFound from "./NotFound";
 
 function Content(){
     return(
-        <div>
-        <ContentTop/>
+        <div className="prueba">
+            <div  className="registro">
+            <ContentTop/>
         <Link to="/form"><button className='bottom1'>Regístrate Aquí</button></Link>
+
+            </div>
+        
         <Routes>
             <Route path="/" element={<ContentBottom/>} />
             <Route path="form" element={<FormularioPage/>} />

@@ -14,6 +14,8 @@ function ContentTop(){
                     playing={true}
                     controls
                     loop 
+                    height='100%'
+                    width='100%'
                      />   
 
                 </div>

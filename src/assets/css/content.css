@@ -3,34 +3,33 @@
     flex-direction: column;
     
 }
+.prueba{
+    display: flex;
+    flex-direction: column;
+}
+.registro{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .videoclip{
-display: flex;
-position: absolute;
-height: 359px;
-margin-left: 15vh;
-top: 183px;
-width: 80%;
-background: url(../images/topbarimages.jpg);
 
+background: url(../images/topbarimages.jpg);
 }
 .video1{
-    margin: auto;
+    margin: 0 1vw 0 1vw;
     
 }
 .bottom1{
-    margin-top: 30px;
-    margin-left: 40%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 37px 138px;
-      
-    position: absolute;
     
-    top: 525px;
-    
+       
     background: #FFFFFF;
     box-shadow: 2px 5px 62px rgba(0, 0, 0, 0.82);
     border-radius: 20px;
@@ -49,31 +48,30 @@ background: url(../images/topbarimages.jpg);
     
     color: #517478;
     
-    
-    /* Inside auto layout */
-    
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
 
-@media (max-width: 996px){
+@media only screen and (min-width: 996px){
    
     .videoclip{
-    top: 283px;
-    margin-left: 20vh;
-   
-    
-   
-        
+        top: 183px;
+        margin-left: 13vh;
+        width: 80%; 
+            
     }
- 
-  
+    .video1{
+        margin: 0 85px 0 85px;
+        height: 500px;  
+       
+         
+     }
     .bottom1{
-        margin-top: 140px;
-        margin-left:43vh;
+        
+      
+        margin-top: 30px;
+      
         
     }
 
 }
+
 
