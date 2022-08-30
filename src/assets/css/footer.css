@@ -1,0 +1,18 @@
+footer{
+position: absolute;
+top: 217%;
+height: 140px;
+background: linear-gradient(90deg, #5EBEC8 0%, #3950A2 100%);
+width: 100%;
+min-height: 18hv;
+}
+
+@media (max-width: 996px){
+    footer{
+       
+        top: 335%;
+        height: 140px;
+        width: 750px;
+       
+        }
+}

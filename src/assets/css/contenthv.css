@@ -1,0 +1,20 @@
+.cargo{
+    line-height: 0;
+    font-style: italic;
+}
+.compania{
+    line-height: 0;
+    font-style: italic;
+}
+
+    .flecha-up{
+            width:0px;
+            height:0px;
+            border-left:25px solid transparent; /* izquierda flecha */
+            border-right:25px solid transparent; /* derecha flecha */
+            border-bottom:25px solid #ffffff; /* base flecha y color*/
+            font-size:0px;
+            line-height:0px;
+            
+         
+    }

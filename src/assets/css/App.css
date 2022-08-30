@@ -1,0 +1,8 @@
+body{
+display: block;
+background: #5EBEC8;
+}
+.App-header{
+display: flex;
+flex-direction: column;
+}

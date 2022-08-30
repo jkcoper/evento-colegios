@@ -1,0 +1,110 @@
+.contentbottom{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+position: absolute;
+width: 100%;
+height: 950px;
+left: 0%;
+right: 0%;
+top: 679px;
+
+background: #F4F2F2;
+box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.detailleft{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+img.foto{
+width: 50vh;  
+height: auto;
+
+filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+border-radius: 15px;
+}
+
+.detalle{
+margin-top: 6%;
+width: 70vh;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 15px;
+display: flex;
+flex-direction: column;
+text-align: justify;
+}
+
+.textodetalle{
+margin-top: 5%; 
+margin-left: 10%; 
+margin-right: 10%;  
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 21px;
+line-height: 36px;
+
+}
+
+.hojavida{
+width: 50vh;
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 15px;
+}
+
+.detallehv{
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 20px;
+    align-items: center;
+    text-align: justify;
+    color: #000000;
+}
+
+#detalleimagen{
+    height: 15vw;
+    width: 55vh;
+    border-radius: 5%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 500px;
+    margin-left: 32hv;
+}
+
+@media (max-width: 996px){
+    .contentbottom{
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items: center;
+        position: absolute;
+        width: 100%;
+        height: 950px;
+        left: 150px;
+        right: 0%;
+        top: 1129px;
+        }
+                     
+        .form{
+            
+            margin-top: 500px;
+           margin-left: 230px;
+        }
+
+}
