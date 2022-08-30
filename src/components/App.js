@@ -1,5 +1,5 @@
 import React from "react";
-import Footer from "./Footer";
+
 import TopBar from "./TopBar";
 import Content
  from "./Content";
@@ -12,7 +12,7 @@ function App() {
         <div><TopBar/></div>
         <div><Content/></div>
         </div> 
-        <Footer/>          
+                
     </div>
   );
 }
