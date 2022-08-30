@@ -6,18 +6,16 @@
 
 .videoclip{
 display: flex;
-
 position: absolute;
 height: 359px;
-left: 15%;
-right: 15%;
+margin-left: 15vh;
 top: 183px;
+width: 80%;
 background: url(../images/topbarimages.jpg);
 
 }
 .video1{
     margin: auto;
-    
     
 }
 .bottom1{
@@ -62,15 +60,18 @@ background: url(../images/topbarimages.jpg);
 @media (max-width: 996px){
    
     .videoclip{
-    left: 10%;
     top: 283px;
+    margin-left: 20vh;
+   
     
-    
+   
+        
     }
+ 
   
     .bottom1{
         margin-top: 140px;
-        margin-left: 48%;
+        margin-left:43vh;
         
     }
 
