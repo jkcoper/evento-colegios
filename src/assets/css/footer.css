@@ -1,6 +1,6 @@
 footer{
 position: absolute;
-top: 280%;
+top: 290%;
 height: 140px;
 width: 100%;
 background: linear-gradient(90deg, #5EBEC8 0%, #3950A2 100%);
@@ -9,7 +9,7 @@ background: linear-gradient(90deg, #5EBEC8 0%, #3950A2 100%);
 
 @media only screen and (min-width: 996px){
     footer{
-        top: 225%;
+        top: 260%;
         
         
         }
