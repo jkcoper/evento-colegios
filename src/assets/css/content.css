@@ -1,7 +1,6 @@
 .contenttop{
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;   
 }
 .prueba{
     display: flex;
@@ -70,6 +69,11 @@ background: url(../images/topbarimages.jpg);
         margin-top: 30px;
       
         
+    }
+    .registro{
+        padding-top: 9px;
+        padding-bottom: 20px;
+       
     }
 
 }
