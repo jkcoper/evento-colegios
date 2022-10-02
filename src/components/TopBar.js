@@ -23,7 +23,7 @@ function TopBar(){
                     Fecha: Octubre 5 del 2022 - Hora: 8:00 am - 11:00 am
                     </div>
                     <div className="direccion">
-                    Lugar: Hotel Sabana Park Sala VIP 1 - Carrera 5 #9-26 sur Cajica 
+                    Lugar: Hotel Sabana Park Sala VIP 1 - Carrera 5 #9-26 sur Cajicá 
                     </div>
 
                 </div>
