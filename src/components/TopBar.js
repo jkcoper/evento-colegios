@@ -2,6 +2,7 @@ import React from "react";
 import image from '../assets/images/valorate-transp.png';
 /* import logo1 from '../assets/images/LOGO_UMANIZALES_50.png';
 import logo2 from '../assets/images/logo_unidad_y_proyeccion-14.png'; */
+import logo1 from '../assets/images/Piezas CCI - 100 años v1.png'
 import {Link} from "react-router-dom";
 
 function TopBar(){
@@ -17,8 +18,10 @@ function TopBar(){
                     </div>
                     {/* <div className="apoya">
                     Con el apoyo de la Universidad de Manizales y su Unidad de Emprendimiento
-
                     </div> */}
+                    <div className="apoya">
+                    Con el apoyo de la Cámara de Comercio de Ibague
+                    </div>
                     <div className="date">
                     Fecha: Octubre 5 del 2022 - Hora: 8:00 am - 11:00 am
                     </div>
@@ -36,6 +39,11 @@ function TopBar(){
                     </div>
 
                 </div> */}
+                <div className="logo-umanizales">
+                    <div className="logo1">
+                    <img id ="logo1" src={logo1} alt="CCI"/>
+                    </div>
+                </div>
 
             </div>
 
