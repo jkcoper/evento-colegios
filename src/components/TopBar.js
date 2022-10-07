@@ -2,7 +2,7 @@ import React from "react";
 import image from '../assets/images/valorate-transp.png';
 /* import logo1 from '../assets/images/LOGO_UMANIZALES_50.png';
 import logo2 from '../assets/images/logo_unidad_y_proyeccion-14.png'; */
-import logo1 from '../assets/images/Piezas CCI - 100 años v1.png'
+import logo1 from '../assets/images/Piezas_CCI_100_anos.png'
 import {Link} from "react-router-dom";
 
 function TopBar(){
