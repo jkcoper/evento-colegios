@@ -1,6 +1,7 @@
 import React from "react";
 import ReactPlayer from 'react-player';
-import video from '../assets/videos/Evento-docentes.mp4';
+/* import video from '../assets/videos/Evento-docentes.mp4'; */
+import video from 'https://www.youtube.com/watch?v=KFyOnx2cReI&t=28s';
 
 
 function ContentTop(){

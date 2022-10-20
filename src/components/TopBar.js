@@ -2,7 +2,7 @@ import React from "react";
 import image from '../assets/images/valorate-transp.png';
 /* import logo1 from '../assets/images/LOGO_UMANIZALES_50.png';
 import logo2 from '../assets/images/logo_unidad_y_proyeccion-14.png'; */
-import logo1 from '../assets/images/Piezas_CCI_100_anos.png'
+import logo1 from '../assets/images/Piezas_CCI_100_anos.png';
 import {Link} from "react-router-dom";
 
 function TopBar(){
@@ -20,13 +20,13 @@ function TopBar(){
                     Con el apoyo de la Universidad de Manizales y su Unidad de Emprendimiento
                     </div> */}
                     <div className="apoya">
-                    Con el apoyo de la Cámara de Comercio de Ibague
+                    Con el apoyo de la Cámara de Comercio de Ibagué
                     </div>
                     <div className="date">
-                    Fecha: Octubre 5 del 2022 - Hora: 8:00 am - 11:00 am
+                    Fecha: Octubre 27 del 2022 - Hora: 8:00 am - 11:00 am
                     </div>
                     <div className="direccion">
-                    Lugar: Hotel Sabana Park Sala VIP 1 - Carrera 5 #9-26 sur Cajicá 
+                    Lugar: Centro Empresarial de la Cámara de Comercio cr 4 #10-77 piso 5 Ibagué 
                     </div>
 
                 </div>
