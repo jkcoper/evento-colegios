@@ -1,7 +1,6 @@
 import React from "react";
 import ReactPlayer from 'react-player';
-/* import video from '../assets/videos/Evento-docentes.mp4'; */
-import video from 'https://www.youtube.com/watch?v=KFyOnx2cReI&t=28s';
+import video from '../assets/videos/Evento-docentes.mp4';
 
 
 function ContentTop(){
@@ -17,7 +16,15 @@ function ContentTop(){
                     loop 
                     height='100%'
                     width='100%'
-                     />   
+                     />
+               {/*  <ReactPlayer 
+                    url='https://www.youtube.com/watch?v=KFyOnx2cReI&t=28s' 
+                    playing={true}
+                    controls
+                    loop 
+                    height='100%'
+                    width='100%'
+                    /> */}
 
                 </div>
                      
