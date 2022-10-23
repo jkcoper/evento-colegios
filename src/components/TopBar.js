@@ -2,7 +2,7 @@ import React from "react";
 import image from '../assets/images/valorate-transp.png';
 /* import logo1 from '../assets/images/LOGO_UMANIZALES_50.png';
 import logo2 from '../assets/images/logo_unidad_y_proyeccion-14.png'; */
-import logo1 from '../assets/images/Piezas_CCI_100_anos.png';
+import logo1 from '../assets/images/Logotolima.png';
 import {Link} from "react-router-dom";
 
 function TopBar(){
@@ -14,20 +14,19 @@ function TopBar(){
                 </div>
                 <div className="title">
                     <div className="main">
-                    Evento Cultura del Emprendimiento
+                    Conferencia: Inteligencia de Liderazgo
                     </div>
                     {/* <div className="apoya">
                     Con el apoyo de la Universidad de Manizales y su Unidad de Emprendimiento
                     </div> */}
                     <div className="apoya">
-                    Con el apoyo de la Cámara de Comercio de Ibagué
+                    Con el apoyo del Grupo Empresarial del Tolima
                     </div>
                     <div className="date">
-                    Fecha: Octubre 27 del 2022 - Hora: 8:00 am - 11:00 am
+                    Fecha: Octubre 26 del 2022 - Hora: 7:00 am
                     </div>
                     <div className="direccion">
-                    Lugar: Centro Empresarial de la Cámara de Comercio cr 4 #10-77 piso 5 Ibagué 
-                    </div>
+                    Lugar: Auditorio Escobar y Arias Centro empresarial Av Mirolindo Cr 48 s # 106-44 vía picaleña km 4</div>
 
                 </div>
                 {/* <div className="logo-umanizales">
@@ -41,7 +40,7 @@ function TopBar(){
                 </div> */}
                 <div className="logo-umanizales">
                     <div className="logo1">
-                    <img id ="logo1" src={logo1} alt="CCI"/>
+                    <img id ="logo1" src={logo1} alt="GET"/>
                     </div>
                 </div>
 
